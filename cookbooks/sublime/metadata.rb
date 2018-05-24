@@ -1,0 +1,6 @@
+name 'sublime'
+maintainer 'Jonathan Beckman'
+maintainer_email 'jonathantbeckman@gmail.com'
+description 'Installs/Configures the Sublime Text editor'
+long_description 'Installs/Configures the Sublime Text editor'
+version '0.1.0'

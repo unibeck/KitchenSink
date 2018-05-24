@@ -1,0 +1,5 @@
+# Berks and Chef artifacts
+nodes/
+**/Berksfile.lock
+**/metadata.json
+# TODO: have berks and chef pull from one directory so we can gitignore that entire directory here. It will also help keep the project cleaner.

@@ -1,0 +1,688 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="96cc5e77-7afd-4cc1-9038-62970987d2c1" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/KitchenSink.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/chrome.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/ark/.foodcritic" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/ark/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/ark/CONTRIBUTING.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/ark/MAINTAINERS.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/ark/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/ark/attributes/default.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/ark/files/default/foo.tar.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/ark/files/default/foo.tbz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/ark/files/default/foo.tgz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/ark/files/default/foo.txz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/ark/files/default/foo.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/ark/files/default/foo_sub.tar.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/ark/files/default/foo_sub.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/ark/libraries/default.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/ark/libraries/general_owner.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/ark/libraries/matchers.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/ark/libraries/platform_specific_builders.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/ark/libraries/resource_defaults.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/ark/libraries/resource_deprecations.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/ark/libraries/sevenzip_command_builder.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/ark/libraries/tar_command_builder.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/ark/libraries/unzip_command_builder.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/ark/libraries/windows_owner.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/ark/recipes/default.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/ark/resources/default.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/ark/templates/default/add_to_path.sh.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/build-essential/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/build-essential/CONTRIBUTING.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/build-essential/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/build-essential/attributes/default.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/build-essential/recipes/_windows.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/build-essential/recipes/default.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/build-essential/resources/build_essential.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/build-essential/resources/xcode_command_line_tools.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/chrome/.chefignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/chrome/Gemfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/chrome/Gemfile.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/chrome/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/chrome/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/chrome/appveyor.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/chrome/attributes/default.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/chrome/chefignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/chrome/libraries/default.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/chrome/libraries/matchers.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/chrome/metadata.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/chrome/providers/default.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/chrome/recipes/apt.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/chrome/recipes/default.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/chrome/recipes/dmg.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/chrome/recipes/msi.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/chrome/recipes/yum.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/chrome/resources/default.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/chrome/templates/default/master_preferences.json.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/devSetup/Berksfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/devSetup/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/devSetup/attributes/default.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/devSetup/chefignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/devSetup/metadata.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/devSetup/recipes/default.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/devSetup/recipes/packages.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/devSetup/recipes/repositories.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/devSetup/recipes/sublime.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/devSetup/spec/spec_helper.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/devSetup/spec/unit/recipes/default_spec.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/devSetup/spec/unit/recipes/gems_spec.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/devSetup/spec/unit/recipes/links_spec.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/devSetup/spec/unit/recipes/packages_spec.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/devSetup/spec/unit/recipes/repositories_spec.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/devSetup/test/integration/default/serverspec/default_spec.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/devSetup/test/integration/helpers/serverspec/spec_helper.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/dmg/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/dmg/CONTRIBUTING.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/dmg/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/dmg/recipes/default.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/dmg/resources/package.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/homebrew/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/homebrew/CONTRIBUTING.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/homebrew/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/homebrew/attributes/default.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/homebrew/libraries/helpers.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/homebrew/recipes/cask.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/homebrew/recipes/default.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/homebrew/recipes/install_casks.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/homebrew/recipes/install_formulas.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/homebrew/recipes/install_taps.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/homebrew/resources/cask.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/homebrew/resources/tap.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/idea/.foodcritic" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/idea/.kitchen.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/idea/.rspec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/idea/.rubocop.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/idea/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/idea/Berksfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/idea/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/idea/Gemfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/idea/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/idea/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/idea/Rakefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/idea/attributes/default.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/idea/metadata.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/idea/recipes/default.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/idea/templates/default/idea.desktop.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/idea/templates/default/idea64.vmoptions.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/java/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/java/CONTRIBUTING.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/java/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/java/attributes/default.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/java/libraries/helpers.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/java/recipes/default.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/java/recipes/default_java_symlink.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/java/recipes/homebrew.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/java/recipes/ibm.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/java/recipes/ibm_tar.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/java/recipes/notify.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/java/recipes/openjdk.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/java/recipes/oracle.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/java/recipes/oracle_i386.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/java/recipes/oracle_jce.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/java/recipes/oracle_rpm.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/java/recipes/purge_packages.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/java/recipes/set_attributes_from_version.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/java/recipes/set_java_home.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/java/recipes/windows.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/java/resources/alternatives.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/java/resources/certificate.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/java/resources/oracle_install.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/java/templates/ibm_jdk.installer.properties.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/java/templates/jdk.sh.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/java/templates/oracle.jinfo.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/mingw/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/mingw/CONTRIBUTING.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/mingw/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/mingw/files/default/bash.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/mingw/files/default/custom-upgrade.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/mingw/files/default/custom_prefix.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/mingw/files/default/pthread.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/mingw/files/default/time.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/mingw/libraries/_helper.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/mingw/recipes/default.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/mingw/resources/get.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/mingw/resources/msys2_package.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/mingw/resources/tdm_gcc.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/seven_zip/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/seven_zip/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/seven_zip/attributes/default.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/seven_zip/libraries/matchers.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/seven_zip/providers/archive.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/seven_zip/recipes/default.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/seven_zip/resources/archive.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/sublime/Berksfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/sublime/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/sublime/attributes/default.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/sublime/chefignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/sublime/metadata.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/sublime/recipes/debian.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/sublime/recipes/default.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/sublime/recipes/windows.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/sublime/spec/spec_helper.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/sublime/spec/unit/recipes/default_spec.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/sublime/spec/unit/recipes/gems_spec.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/sublime/spec/unit/recipes/links_spec.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/sublime/spec/unit/recipes/packages_spec.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/sublime/spec/unit/recipes/repositories_spec.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/sublime/test/integration/default/serverspec/default_spec.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/sublime/test/integration/helpers/serverspec/spec_helper.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/windows/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/windows/CONTRIBUTING.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/windows/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/windows/libraries/powershell_helper.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/windows/libraries/registry_helper.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/windows/libraries/version.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/windows/libraries/version_helper.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/windows/libraries/windows_helper.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/windows/libraries/windows_privileged.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/windows/libraries/wmi_helper.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/windows/providers/dns.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/windows/recipes/default.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/windows/resources/auto_run.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/windows/resources/certificate.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/windows/resources/certificate_binding.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/windows/resources/dns.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/windows/resources/feature.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/windows/resources/feature_dism.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/windows/resources/feature_powershell.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/windows/resources/font.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/windows/resources/http_acl.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/windows/resources/pagefile.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/windows/resources/path.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/windows/resources/printer.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/windows/resources/printer_port.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/windows/resources/share.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/windows/resources/shortcut.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/windows/resources/task.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/windows/resources/zipfile.rb" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="default.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cookbooks/devSetup/recipes/default.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.txt" />
+        <option value="$PROJECT_DIR$/cookbooks/devSetup/recipes/sublime.rb" />
+        <option value="$PROJECT_DIR$/cookbooks/sublime/recipes/windows.rb" />
+        <option value="$PROJECT_DIR$/cookbooks/sublime/recipes/default.rb" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/cookbooks/devSetup/metadata.rb" />
+        <option value="$PROJECT_DIR$/cookbooks/devSetup/Berksfile" />
+        <option value="$PROJECT_DIR$/cookbooks/sublime/metadata.rb" />
+        <option value="$PROJECT_DIR$/cookbooks/sublime/recipes/debian.rb" />
+        <option value="$PROJECT_DIR$/cookbooks/devSetup/recipes/default.rb" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="67" />
+    <option name="y" value="25" />
+    <option name="width" value="1853" />
+    <option name="height" value="1055" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="KitchenSink" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KitchenSink" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KitchenSink" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KitchenSink" type="462c0819:PsiDirectoryNode" />
+              <item name="cookbooks" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="TEXT" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/cookbooks/sublime/recipes" />
+      <recent name="$PROJECT_DIR$/cookbooks/sublime" />
+    </key>
+  </component>
+  <component name="RubyModuleManagerSettings">
+    <option name="blackListedRootsPaths">
+      <list>
+        <option value="$PROJECT_DIR$/cookbooks/idea" />
+      </list>
+    </option>
+    <option name="shouldAskUser" value="false" />
+    <option name="shouldCreateModules" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+  </component>
+  <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="96cc5e77-7afd-4cc1-9038-62970987d2c1" name="Default" comment="" />
+      <created>1527123767621</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1527123767621</updated>
+      <workItem from="1527123770465" duration="210000" />
+      <workItem from="1527124005080" duration="6390000" />
+      <workItem from="1527171339442" duration="480000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="7080000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32946146" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3478261" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19811843" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32925472" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="105">
+            <caret line="7" column="84" selection-start-line="7" selection-start-column="84" selection-end-line="7" selection-end-column="84" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cookbooks/devSetup/recipes/default.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cookbooks/devSetup/Berksfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cookbooks/sublime/metadata.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cookbooks/sublime/recipes/default.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="179" selection-start-line="4" selection-start-column="179" selection-end-line="4" selection-end-column="179" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cookbooks/sublime/recipes/debian.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cookbooks/devSetup/metadata.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cookbooks/devSetup/recipes/default.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cookbooks/devSetup/metadata.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="45" selection-start-column="45" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cookbooks/sublime/attributes/default.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cookbooks/sublime/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cookbooks/sublime/recipes/windows.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cookbooks/devSetup/recipes/sublime.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cookbooks/devSetup/metadata.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-125" />
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/idea64.vmoptions">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="105">
+            <caret line="7" column="84" selection-start-line="7" selection-start-column="84" selection-end-line="7" selection-end-column="84" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cookbooks/devSetup/metadata.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cookbooks/devSetup/Berksfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cookbooks/sublime/metadata.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cookbooks/sublime/recipes/default.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cookbooks/sublime/recipes/debian.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cookbooks/devSetup/recipes/default.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>JRuby</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>Chef DK: /opt/chefdk</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>chrome</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
