@@ -7,17 +7,23 @@ KitchenSink is a workstation provisioning tool used to quickly and easily get a 
 0) If you have run this before and you want to make a dependency update you should first delete the generated 
 `Berksfile.lock` and `metadata.json` files so Berks can grab the newest dependencies
 
-1) Use git:
+1) Use wget:
 ```
 TODO
 ```
 
 2) At the root of the project you'll want to run the following command to get the cookbooks dependencies:
 ```
-berks vendor cookbooks -b cookbooks/devSetup/Berksfile
+berks vendor berks-cookbooks --berksfile cookbooks/devSetup/Berksfile
 ```
 
 3) Then to start the installation process run
 ```
-sudo chef-client -z -o 'devSetup'
+sudo chef-client --local-mode -o 'devSetup' --config=client.rb
 ```
+
+# TODO
+certificates?
+openssl
+docker
+monitoring?
