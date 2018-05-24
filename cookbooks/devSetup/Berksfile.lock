@@ -1,0 +1,39 @@
+DEPENDENCIES
+  devSetup
+    path: .
+    metadata: true
+  sublime
+    path: ../sublime
+
+GRAPH
+  ark (3.1.0)
+    build-essential (>= 0.0.0)
+    seven_zip (>= 0.0.0)
+    windows (>= 0.0.0)
+  build-essential (8.1.1)
+    mingw (>= 1.1)
+    seven_zip (>= 0.0.0)
+  chrome (4.0.2)
+    dmg (>= 3.0)
+  devSetup (0.1.0)
+    chrome (~> 4.0.2)
+    git (~> 9.0.0)
+    idea (~> 0.6.0)
+    java (~> 2.0.1)
+    sublime (~> 0.1.0)
+  dmg (4.1.1)
+  git (9.0.0)
+    build-essential (>= 5.0.0)
+  homebrew (5.0.4)
+  idea (0.6.0)
+    ark (>= 0.0.0)
+    java (>= 0.0.0)
+  java (2.0.1)
+    homebrew (>= 0.0.0)
+    windows (>= 0.0.0)
+  mingw (2.0.2)
+    seven_zip (>= 0.0.0)
+  seven_zip (3.0.0)
+    windows (>= 0.0.0)
+  sublime (0.1.0)
+  windows (4.2.2)

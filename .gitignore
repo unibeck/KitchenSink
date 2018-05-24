@@ -3,7 +3,6 @@ nodes/
 berks-cookbooks/
 local-mode-cache/
 chef_guid
-**/Berksfile.lock
 **/metadata.json
 
 # Intellij configs
