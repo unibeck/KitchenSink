@@ -1,5 +1,6 @@
 # General Chef config
 default['kitchen_sink']['user'] = 'jbeckman'
+default['kitchen_sink']['user_password'] = 'changeme'
 default['kitchen_sink']['group'] = 'jbeckman'
 
 # Java config

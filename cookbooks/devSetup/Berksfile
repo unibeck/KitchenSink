@@ -1,8 +1,11 @@
 source 'https://supermarket.chef.io'
 
 # Local cookbooks
-cookbook 'virtualbox', path: '../virtualbox'
+cookbook 'system', path: '../system'
+
 cookbook 'ks_docker', path: '../ks_docker'
+cookbook 'virtualbox', path: '../virtualbox'
+
 cookbook 'sublime', path: '../sublime'
 cookbook 'enpass', path: '../enpass'
 cookbook 'monitoring', path: '../monitoring'
