@@ -7,6 +7,11 @@ version '0.1.0'
 
 depends 'git', '~> 9.0.0'
 depends 'java', '~> 2.0.1'
+# depends 'ks_docker', '~> 0.1.0'
+depends 'virtualbox', '~> 0.1.0'
+
 depends 'idea', '~> 0.6.0'
 depends 'chrome', '~> 4.0.2'
 depends 'sublime', '~> 0.1.0'
+depends 'enpass', '~> 0.1.0'
+depends 'monitoring', '~> 0.1.0'

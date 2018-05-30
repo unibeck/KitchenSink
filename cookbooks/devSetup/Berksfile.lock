@@ -2,8 +2,16 @@ DEPENDENCIES
   devSetup
     path: .
     metadata: true
+  enpass
+    path: ../enpass
+  ks_docker
+    path: ../ks_docker
+  monitoring
+    path: ../monitoring
   sublime
     path: ../sublime
+  virtualbox
+    path: ../virtualbox
 
 GRAPH
   ark (3.1.0)
@@ -17,11 +25,16 @@ GRAPH
     dmg (>= 3.0)
   devSetup (0.1.0)
     chrome (~> 4.0.2)
+    enpass (~> 0.1.0)
     git (~> 9.0.0)
     idea (~> 0.6.0)
     java (~> 2.0.1)
+    monitoring (~> 0.1.0)
     sublime (~> 0.1.0)
+    virtualbox (~> 0.1.0)
   dmg (4.1.1)
+  docker (4.2.0)
+  enpass (0.1.0)
   git (9.0.0)
     build-essential (>= 5.0.0)
   homebrew (5.0.4)
@@ -31,9 +44,13 @@ GRAPH
   java (2.0.1)
     homebrew (>= 0.0.0)
     windows (>= 0.0.0)
+  ks_docker (0.1.0)
+    docker (~> 4.2.0)
   mingw (2.0.2)
     seven_zip (>= 0.0.0)
+  monitoring (0.1.0)
   seven_zip (3.0.0)
     windows (>= 0.0.0)
   sublime (0.1.0)
-  windows (4.2.2)
+  virtualbox (0.1.0)
+  windows (4.2.5)

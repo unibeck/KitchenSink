@@ -1,0 +1,6 @@
+name 'enpass'
+maintainer 'Jonathan Beckman'
+maintainer_email 'jonathantbeckman@gmail.com'
+description 'Installs/Configures the Enpass Password Manager'
+long_description 'Installs/Configures the Enpass Password Manager'
+version '0.1.0'

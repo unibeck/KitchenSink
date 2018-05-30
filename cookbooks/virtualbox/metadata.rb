@@ -1,0 +1,6 @@
+name 'virtualbox'
+maintainer 'Jonathan Beckman'
+maintainer_email 'jonathantbeckman@gmail.com'
+description 'Installs/Configures Virtualbox'
+long_description 'Installs/Configures Virtualbox'
+version '0.1.0'

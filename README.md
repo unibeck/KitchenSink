@@ -2,7 +2,14 @@
 
 KitchenSink is a workstation provisioning tool used to quickly and easily get a standard and predictable environment. 
 This exact environment should be reproducible and idempotent s.t. running the install one or more times on a fresh or 
-used machine should result in the same environment. 
+used machine should result in the same environment.
+
+## Kitchen Sink Attributes
+
+There are a few attributes it is recommended that you set for finer customization of the setup. These attributes are 
+located at the beginning og the `cookbooks/devSetup/attributes/default.rb` file and are prefixed with 
+`default['kitchen_sink]`. Some of them may be self explanatory while others will have a comment with the meaning and 
+usage of the specific attribute.
 
 ## Getting Started
 
@@ -38,4 +45,19 @@ versions; if you wish to update the cookbook version do so in the `metadata.rb` 
 certificates?
 openssl
 docker
+- mysql
 monitoring?
+vpn
+dart
+tensorflow
+VPN openconnect (Kelmar). Look at command history (maybe theres a community sourced cookbook?)
+
+
+Ubuntu 18.04 gnome only. To only show windows in current workspace
+```
+gsettings set org.gnome.shell.extensions.dash-to-dock isolate-workspaces true
+```
+
+```
+sudo apt install gnome-tweak-tool
+```

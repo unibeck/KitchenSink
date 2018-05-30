@@ -1,0 +1,6 @@
+name 'monitoring'
+maintainer 'Jonathan Beckman'
+maintainer_email 'jonathantbeckman@gmail.com'
+description 'Installs/Configures the platform specific monitoring tools and applications'
+long_description 'Installs/Configures the platform specific monitoring tools and applications'
+version '0.1.0'
