@@ -6,7 +6,7 @@ include_recipe 'git'
 include_recipe 'java'
 # include_recipe 'dart'
 include_recipe 'maven'
-# include_recipe 'ks_docker'
+include_recipe 'ks_docker'
 include_recipe 'virtualbox'
 include_recipe 'nodejs'
 

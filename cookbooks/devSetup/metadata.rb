@@ -12,7 +12,7 @@ depends 'git', '~> 9.0.0'
 depends 'java', '~> 2.0.1'
 # depends 'dart', '~> 0.1.0'
 depends 'maven', '~> 5.1.0'
-# depends 'ks_docker', '~> 0.1.0'
+depends 'ks_docker', '~> 0.1.0'
 depends 'virtualbox', '~> 0.1.0'
 depends 'nodejs', '~> 5.0.0'
 

@@ -1,6 +1,9 @@
-execute 'Add repo sign key' do
-  command 'wget -q https://www.virtualbox.org/download/oracle_vbox_2016.asc -O- | sudo apt-key add -'
-  command 'wget -q https://www.virtualbox.org/download/oracle_vbox.asc -O- | sudo apt-key add -'
+execute 'Add first repo sign key' do
+  command 'wget -q https://www.virtualbox.org/download/oracle_vbox.asc -O- | apt-key add -'
+end
+
+execute 'Add second repo sign key' do
+  command 'wget -q https://www.virtualbox.org/download/oracle_vbox_2016.asc -O- | apt-key add -'
 end
 
 execute 'Add repo source list' do
