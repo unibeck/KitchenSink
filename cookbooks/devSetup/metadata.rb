@@ -6,6 +6,7 @@ long_description 'Installs/Configures an environment for developers'
 version '0.1.0'
 
 depends 'system', '~> 0.1.0'
+depends 'jb_spec', '~> 0.1.0'
 
 depends 'git', '~> 9.0.0'
 depends 'java', '~> 2.0.1'

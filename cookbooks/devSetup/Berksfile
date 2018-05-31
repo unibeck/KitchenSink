@@ -2,6 +2,7 @@ source 'https://supermarket.chef.io'
 
 # Local cookbooks
 cookbook 'system', path: '../system'
+cookbook 'jb_spec', path: '../jb_spec'
 
 cookbook 'ks_docker', path: '../ks_docker'
 cookbook 'virtualbox', path: '../virtualbox'

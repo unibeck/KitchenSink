@@ -4,6 +4,8 @@ DEPENDENCIES
     metadata: true
   enpass
     path: ../enpass
+  jb_spec
+    path: ../jb_spec
   ks_docker
     path: ../ks_docker
   monitoring
@@ -31,6 +33,7 @@ GRAPH
     git (~> 9.0.0)
     idea (~> 0.6.0)
     java (~> 2.0.1)
+    jb_spec (~> 0.1.0)
     maven (~> 5.1.0)
     monitoring (~> 0.1.0)
     nodejs (~> 5.0.0)
@@ -49,6 +52,7 @@ GRAPH
   java (2.0.1)
     homebrew (>= 0.0.0)
     windows (>= 0.0.0)
+  jb_spec (0.1.0)
   ks_docker (0.1.0)
     docker (~> 4.2.0)
   maven (5.1.0)
