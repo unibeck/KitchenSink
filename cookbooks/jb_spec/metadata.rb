@@ -1,0 +1,6 @@
+name 'jb_spec'
+maintainer 'Jonathan Beckman'
+maintainer_email 'jonathantbeckman@gmail.com'
+description 'Installs/Configures specific properties for Jonathan Beckman\'s laptop'
+long_description 'Installs/Configures specific properties for Jonathan Beckman\'s laptop'
+version '0.1.0'

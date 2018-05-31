@@ -42,7 +42,6 @@ versions; if you wish to update the cookbook version do so in the `metadata.rb` 
 , and ensure that the new cookbook version(s) work before updating the repo.
 
 ## TODO
-certificates?
 openssl
 docker
 - mysql
@@ -51,13 +50,3 @@ vpn
 dart
 tensorflow
 VPN openconnect (Kelmar). Look at command history (maybe theres a community sourced cookbook?)
-
-
-Ubuntu 18.04 gnome only. To only show windows in current workspace
-```
-gsettings set org.gnome.shell.extensions.dash-to-dock isolate-workspaces true
-```
-
-```
-sudo apt install gnome-tweak-tool
-```
